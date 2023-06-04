@@ -1,0 +1,47 @@
+.infos-bar {
+    margin-top: 60px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+
+    @media (max-width:640px) {
+    margin-top: 30px;
+    display: block;
+    padding: 16px 0px;
+    }
+    &__infos {
+        display: flex;
+
+        gap: 40px;
+
+        &__item {
+            b {
+                display: block;
+                font-size: 110%;
+                margin-bottom: 5px;
+            }
+
+        }
+        @media (max-width:640px) {        
+            display: block;
+            padding: 20px 0;
+            }
+
+    }
+
+    .button {
+        padding: 12px;
+        font-size: 18px;
+        background-color: purple;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        transition: .25s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

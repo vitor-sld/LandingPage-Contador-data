@@ -1,0 +1,16 @@
+@use 'hero';
+@use 'infos-bar';
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
